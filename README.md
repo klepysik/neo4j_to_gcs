@@ -17,3 +17,6 @@ EXPORT NEO4J_GCS_UPLOAD_BUCKET=/neo_backup/xxx
 Possible issues :
 if folowing error exists - ImportError: No module named google_compute_engine
 Run : # sudo rm -f /etc/boto.cfg
+
+
+I also added in Neo4j backup and Neo4j backup upload to gcs to send signalfx on success 
